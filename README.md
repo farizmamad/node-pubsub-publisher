@@ -31,7 +31,7 @@ https://console.cloud.google.com/gcr/images/$PROJECT_ID?authuser=1&project=$PROJ
 
 ## Deploy to Cloud Run
 
-then choose the image. On the latest one, click the ```triple dot button``` on the right. Click ```Deploy to Cloud Run```. Make sure you set the ```number of instances``` as required by your project. In learning phase, 1 is suggested.
+then choose the image. On the latest one, click the ```triple dot button``` on the right. Click ```Deploy to Cloud Run```. Make sure you set the ```number of instances``` as required by your project. In learning phase, 1 is suggested. Also, allow unauthenticated to allow non-GCP users make a request. Make sure you put authentication at application level.
 
 Wait for seconds, then the cloud run app should be up. 
 
